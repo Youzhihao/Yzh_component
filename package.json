@@ -1,0 +1,39 @@
+{
+  "name": "yzh_component",
+  "version": "1.0.0",
+  "description": "yzh private component",
+  "main": "./dist/Yzh_component.js",
+  "scripts": {
+    "start": "webpack --config webpack.dev.js --progress --colors",
+    "build": "webpack --config webpack.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Youzhihao/Yzh_component.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Youzhihao/Yzh_component/issues"
+  },
+  "homepage": "https://github.com/Youzhihao/Yzh_component#readme",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.1.0",
+    "webpack-merge": "^4.2.2"
+  }
+}
